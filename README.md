@@ -57,3 +57,16 @@ ResumeBuilder/
 │   └── ...
 │
 └── README.md
+
+create a .env file in /backend
+DB_PASSWORD=<your value>
+DB_NAME=<your value>
+DB_URI=<your value>
+APP_ENDPOINT=build-resume
+PORT=3000
+JWT_SECRET=<your value>
+FRONTEND_ENDPOINT=http://localhost:5173
+GEMINI_API_KEY=<your value>
+GROQ_API_KEY=<your value>
+
+Then do "npm i" in both backend and frontend
